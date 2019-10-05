@@ -1,0 +1,17 @@
+#include<stdio.h>
+int combi(int,int);
+int combi(int n,int r)
+{
+	if(r==0)
+	return 1;
+	else
+	return (((float)n/(float)r)*combi(n-1,r-1));
+}
+int main()
+{
+	int n,r,x=0;
+	printf("Enter n & r\n");
+	scanf("%d%d",&n,&r);
+	x=combi(n,r);
+	printf("%d",x);
+}
