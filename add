@@ -3,4 +3,5 @@ int main()
 {
   printf("%d",5+7);
   printf("%d",2*3);
+  printf("%d",6/2);
 }
