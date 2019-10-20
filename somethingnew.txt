@@ -1,0 +1,1 @@
+SO php allows you to break threw two or more loops simultaneously just by using the function break(2); or break(n);
