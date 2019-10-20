@@ -1,0 +1,1 @@
+Theses are variables are created even before the starting of the php program
